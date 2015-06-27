@@ -27,5 +27,5 @@ require "rake/clean"
 CLEAN.include(%w(aux log).map{|x| "*.#{x}"})
 CLOBBER.include(%w(pdf dvi).map{|x| "*.#{x}"})
 
-task all: [:clean, pdf]
+task all: [:clobber, pdf]
 task default: :all
