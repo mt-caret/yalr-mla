@@ -1,0 +1,2 @@
+map , :!rake && rake view <CR>
+map _ :!aspell --lang=en -c -t % && diction -b -s --language en % <CR>
