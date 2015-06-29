@@ -8,7 +8,7 @@ file dvi do
 		puts "#{src} not found!"
 		abort
 	end
-	sh "latex", src
+	sh "platex", src
 end
 
 file pdf => dvi do
