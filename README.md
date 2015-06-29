@@ -1,4 +1,4 @@
-#yalr+mla - yet another latex rakefile (with custom MLA format)
+#yalr-mla - yet another latex rakefile (with custom MLA format)
 
 ```
 $ rake all  #compiles main.tex to pdf, and
